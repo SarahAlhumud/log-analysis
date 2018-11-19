@@ -1,5 +1,5 @@
-#Full Stack Web Developer Nano-Degree 
-##Project (1): Log Analysis
+# Full Stack Web Developer Nano-Degree 
+## Project (1): Log Analysis
 
 This is the first project in Full Stack Web Developer Nano-Degree. It shows a report about viewing articles of authors.
 
@@ -23,7 +23,7 @@ Since the keyword `REPLACE` will check the existing of the view, no need to omit
 The output of this code is in `output.txt` file.
 
 ### Setup
-#####1. Start with Software Installation
+##### 1. Start with Software Installation
   - Vagrant: https://www.vagrantup.com/downloads.html
   - Virtual Machine: https://www.virtualbox.org/wiki/Downloads
   - Download a FSND virtual machine: https://github.com/udacity/fullstack-nanodegree-vm
@@ -42,15 +42,15 @@ mkdir log-analysis-pr
 ```
 
 \- For this project, all the work will be on your Linux machine, so always make sure you logged in by using the following commands:
-vagrant up, then vagrant ssh, then cd /vagrant.
-Note: Files in the VM's /vagrant directory are shared with the vagrant folder on your computer. But other data inside the VM is not.
+`vagrant up`, then `vagrant ssh`, then `cd /vagrant`.
+Note: Files in the VM's `/vagrant` directory are shared with the `vagrant` folder on your computer. But other data inside the VM is not.
 
-#####2. Download and Load the Data
-  - For this project, you need to download “newsdata.sql” from the project page or by clicking
+##### 2. Download and Load the Data
+  - For this project, you need to download `newsdata.sql` from the project page or by clicking
 on the following link:
 https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip
-  - Move the “newsdata.sql” to your project folder “log-analysis-project”
-  - Load the data from the “newsdata.sql” by using the following command: Note that we are
+  - Move the `newsdata.sql` to your project folder `log-analysis-project`
+  - Load the data from the `newsdata.sql` by using the following command: Note that we are
 using PostgreSQL for this project:
     ```
     psql -d news -f newsdata.sql
